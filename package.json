@@ -1,0 +1,27 @@
+{
+  "name": "noteswebapp",
+  "version": "1.0.0",
+  "description": "A webapp to make notes and store them.",
+  "main": "app.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyaSinyugin/notesWebApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IlyaSinyugin/notesWebApp/issues"
+  },
+  "homepage": "https://github.com/IlyaSinyugin/notesWebApp#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
